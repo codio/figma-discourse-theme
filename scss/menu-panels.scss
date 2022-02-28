@@ -61,6 +61,7 @@ items trigger a dropdown */
       &:hover,
       &:focus {
         background-color: transparent !important;
+        color: white !important;
       }
     }
     &.category-link {
@@ -75,6 +76,7 @@ items trigger a dropdown */
         .category-name,
         .badge-notification {
           color: white !important;
+          z-index: 0 !important;
         }
       }
       // We want to see the first three categories + the categories links

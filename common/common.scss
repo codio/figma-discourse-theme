@@ -503,7 +503,7 @@ input[type]:focus,
     }
   }
   #navigation-bar {
-    display: inline-block;
+    display: flex;
     grid-area: navigation;
     grid-column: -1/1;
     grid-row: 2;

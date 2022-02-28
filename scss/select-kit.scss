@@ -297,7 +297,9 @@ as Discourse's primary form of navigation between filters */
     }
     .select-kit-body {
       @include hud-shadow();
+      inset: -2px auto auto -8px !important;
       padding: 8px 0;
+      position: absolute !important;
     }
     .select-kit-collection {
       min-height: 0vh;

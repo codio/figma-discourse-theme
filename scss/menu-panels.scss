@@ -86,11 +86,12 @@ items trigger a dropdown */
         width: 100%;
       }
       .badge-category {
-        color: var(--modal-fg);
+        color: var(--modal-fg) !important;
       }
       .badge-category-bg {
         margin-left: -24px;
         margin-right: 16px !important;
+        position: relative !important;
       }
       .badge-notification {
         width: unset;
@@ -132,7 +133,7 @@ items trigger a dropdown */
     max-width: unset;
   }
   .menu-panel {
-    width: 240px !important;
+    width: 280px !important;
     li {
       /* These are Admin and Settings, but also individual results from 
       the Search Menu */

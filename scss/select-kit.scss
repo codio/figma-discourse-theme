@@ -239,7 +239,7 @@ Select kit theming
       font-size: 0.875em !important;
     }
     &.is-highlighted {
-      background-color: var(--community-blue);
+      background-color: var(--community-blue) !important;
       color: white !important;
       .category-name,
       .name,
@@ -249,21 +249,15 @@ Select kit theming
       .discourse-tag-count {
         color: white !important;
       }
-      &.hover {
-        background: var(--community-blue);
-      }
     }
     &.is-selected {
       background-color: var(--surface-low-contrast);
       &.is-highlighted {
-        background-color: var(--community-blue);
+        background-color: var(--community-blue) !important;
         .category-name,
         .name,
         .topic-count {
           color: white !important;
-        }
-        &.hover {
-          background: var(--community-blue);
         }
       }
     }

@@ -1913,6 +1913,7 @@ div.poll {
     }
   }
   .badge-category-bg {
+    position: relative;
     border-radius: 10px;
     height: 10px;
     margin-right: 8px;
@@ -1925,6 +1926,9 @@ div.poll {
     color: var(--fg-medium-contrast);
     font-size: 0.875em;
     font-weight: 400;
+    .category-name {
+      color: var(--fg-medium-contrast) !important;
+    }
   }
 }
 
@@ -2195,6 +2199,12 @@ aside.onebox {
   }
   h3.suggested-topics-message {
     font-size: 1.125em;
+    .badge-category-bg {
+      position: relative;
+    }
+    .category-name {
+      color: var(--fg-medium-contrast) !important;
+    }
   }
 }
 

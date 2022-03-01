@@ -249,9 +249,6 @@ Select kit theming
       .discourse-tag-count {
         color: white !important;
       }
-      &.hover {
-        background: var(--community-blue);
-      }
     }
     &.is-selected {
       background-color: var(--surface-low-contrast);
@@ -263,6 +260,9 @@ Select kit theming
           color: white !important;
         }
       }
+    }
+    &.hover {
+      background: var(--community-blue);
     }
   }
 }

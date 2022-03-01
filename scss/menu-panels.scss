@@ -91,9 +91,9 @@ items trigger a dropdown */
         color: var(--modal-fg) !important;
       }
       .badge-category-bg {
+        position: relative;
         margin-left: -24px;
         margin-right: 16px !important;
-        position: relative !important;
       }
       .badge-notification {
         width: unset;

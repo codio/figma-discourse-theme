@@ -1030,7 +1030,7 @@ tr {
         width: 10px;
       }
       .badge-category {
-        color: var(--fg-medium-contrast);
+        color: var(--fg-medium-contrast) !important;
         .category-name {
           font-size: 0.875em;
           font-weight: 400;
@@ -1910,6 +1910,7 @@ div.poll {
     }
   }
   .badge-category-bg {
+    position: relative;
     border-radius: 10px;
     height: 10px;
     margin-right: 8px;

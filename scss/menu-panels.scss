@@ -61,6 +61,7 @@ items trigger a dropdown */
       &:hover,
       &:focus {
         background-color: transparent !important;
+        color: white !important;
       }
     }
     &.category-link {
@@ -75,6 +76,7 @@ items trigger a dropdown */
         .category-name,
         .badge-notification {
           color: white !important;
+          z-index: 0 !important;
         }
       }
       // We want to see the first three categories + the categories links
@@ -86,9 +88,10 @@ items trigger a dropdown */
         width: 100%;
       }
       .badge-category {
-        color: var(--modal-fg);
+        color: var(--modal-fg) !important;
       }
       .badge-category-bg {
+        position: relative;
         margin-left: -24px;
         margin-right: 16px !important;
       }
@@ -132,7 +135,7 @@ items trigger a dropdown */
     max-width: unset;
   }
   .menu-panel {
-    width: 240px !important;
+    width: 280px !important;
     li {
       /* These are Admin and Settings, but also individual results from 
       the Search Menu */

@@ -239,7 +239,7 @@ Select kit theming
       font-size: 0.875em !important;
     }
     &.is-highlighted {
-      background-color: var(--community-blue);
+      background: var(--community-blue);
       color: white !important;
       .category-name,
       .name,
@@ -253,7 +253,7 @@ Select kit theming
     &.is-selected {
       background-color: var(--surface-low-contrast);
       &.is-highlighted {
-        background-color: var(--community-blue);
+        background: var(--community-blue);
         .category-name,
         .name,
         .topic-count {

@@ -250,7 +250,7 @@ Select kit theming
         color: white !important;
       }
       &.hover {
-        background-color: var(--community-blue);
+        background: var(--community-blue);
       }
     }
     &.is-selected {

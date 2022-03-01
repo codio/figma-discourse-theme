@@ -515,6 +515,7 @@ input[type]:focus,
     grid-area: buttons;
     grid-row: 1;
     margin-bottom: 0;
+    flex-wrap: nowrap;
     .btn {
       background-color: transparent;
       color: var(--fg-medium-contrast);

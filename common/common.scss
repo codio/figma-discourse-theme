@@ -247,6 +247,7 @@ input[type]:focus,
 }
 
 .badge-category-bg {
+  position: relative !important;
   border-radius: 8px !important;
   height: 8px !important;
   margin-right: 8px !important;
@@ -258,6 +259,10 @@ input[type]:focus,
   height: 8px !important;
   margin-right: 8px !important;
   width: 8px !important;
+}
+
+.badge-category .category-name {
+  color: var(--fg-medium-contrast) !important;
 }
 
 .boxed.white {

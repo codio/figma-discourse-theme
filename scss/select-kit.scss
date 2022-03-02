@@ -19,7 +19,7 @@ Select kit theming
       }
       .discourse-tag,
       .discourse-tag-count {
-        color: var(--fg-medium-contrast) !important;
+        color: var(--fg-medium-contrast);
       }
     }
   }
@@ -264,6 +264,7 @@ Select kit theming
       .topic-count,
       .desc,
       .d-icon,
+      .discourse-tag,
       .discourse-tag-count {
         color: white !important;
       }

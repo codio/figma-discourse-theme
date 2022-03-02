@@ -2644,6 +2644,9 @@ Badges
   }
   #reply-title {
     height: 40px;
+    .select-kit-header {
+      color: var(--fg-medium-contrast) !important;
+    }
   }
   .reply-to {
     align-items: center;

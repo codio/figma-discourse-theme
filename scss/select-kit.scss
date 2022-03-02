@@ -189,17 +189,11 @@ Select kit theming
           color: var(--fg-high-contrast) !important;
           font-weight: 500;
           padding-bottom: 4px;
-          &:hover {
-            color: white !important;
-          }
         }
         .desc {
           color: var(--fg-medium-contrast) !important;
           min-width: 296px;
           padding-right: 32px;
-          &:hover {
-            color: white !important;
-          }
         }
       }
     }
@@ -256,6 +250,14 @@ Select kit theming
       .d-icon,
       .discourse-tag-count {
         color: white !important;
+      }
+      .texts {
+        .name {
+          color: white !important;
+        }
+        .desc {
+          color: white !important;
+        }
       }
     }
     &.is-selected {

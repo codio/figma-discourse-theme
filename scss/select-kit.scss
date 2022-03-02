@@ -114,6 +114,7 @@ Select kit theming
     .select-kit-header {
       background-color: var(--bg);
       border: 1px solid var(--surface-high-contrast);
+      border-radius: 6px;
       padding: 8px;
       .selected-name {
         border-bottom: 0;
@@ -364,6 +365,7 @@ as Discourse's primary form of navigation between filters */
   .multi-select-header {
     background: var(--bg);
     border: 1px solid var(--surface-high-contrast);
+    border-radius: 6px;
   }
   .select-kit-filter {
     margin: 0;

@@ -186,12 +186,12 @@ Select kit theming
       }
       .texts {
         .name {
-          color: var(--fg-high-contrast);
+          color: var(--fg-high-contrast) !important;
           font-weight: 500;
           padding-bottom: 4px;
         }
         .desc {
-          color: var(--fg-medium-contrast);
+          color: var(--fg-medium-contrast) !important;
           min-width: 296px;
           padding-right: 32px;
         }
@@ -222,6 +222,7 @@ Select kit theming
   }
   .select-kit-collection {
     background-color: var(--modal-bg);
+    display: table;
   }
   .select-kit-header {
     .selected-name {
@@ -292,6 +293,9 @@ as Discourse's primary form of navigation between filters */
     .select-kit-header {
       &:focus {
         outline: none;
+      }
+      .category-name {
+        color: var(--fg-medium-contrast) !important;
       }
       .caret-icon {
         padding-left: 8px;

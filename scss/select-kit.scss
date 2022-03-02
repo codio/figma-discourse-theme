@@ -74,6 +74,10 @@ Select kit theming
             & + .badge-wrapper {
               .badge-category-bg {
                 border-radius: 0px !important;
+                position: relative;
+              }
+              .badge-category .d-icon {
+                color: var(--fg-high-contrast) !important;
               }
             }
           }
@@ -175,6 +179,7 @@ Select kit theming
     &.is-expanded {
       .select-kit-body {
         @include hud-shadow();
+        min-width: fit-content !important;
       }
     }
     .select-kit-row {

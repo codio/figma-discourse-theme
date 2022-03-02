@@ -55,6 +55,7 @@ Select kit theming
       .select-kit-header {
         height: unset;
         white-space: nowrap;
+        border-radius: 6px;
         background-color: white !important;
         color: var(--fg-high-contrast) !important;
         .d-icon {

@@ -184,7 +184,7 @@ textarea,
 div.ac-wrap input[type="text"] {
   background-color: var(--bg);
   border: 1px solid var(--surface-high-contrast);
-  border-radius: 2px;
+  border-radius: 6px;
   box-shadow: none;
   color: var(--fg-high-contrast);
   font-size: 1em;
@@ -201,6 +201,10 @@ div.ac-wrap input[type="text"] {
     box-shadow: none;
     outline: 0;
   }
+}
+
+input[type="number"] {
+  border-radius: 6px;
 }
 
 div.ac-wrap {

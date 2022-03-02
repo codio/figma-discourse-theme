@@ -44,11 +44,18 @@ Select kit theming
     &.multi-select {
       .select-kit-body {
         padding: 8px 0;
+        .d-icon {
+          color: var(--fg-medium-contrast) !important;
+        }
       }
       .select-kit-header {
         height: unset;
         white-space: nowrap;
         background-color: white !important;
+        color: var(--fg-high-contrast) !important;
+        .d-icon {
+          color: var(--fg-medium-contrast) !important;
+        }
       }
       .select-kit-row {
         height: 32px;
@@ -94,6 +101,9 @@ Select kit theming
           color: rgba(0, 0, 0, 0.8);
           font-size: 0.75em;
           margin-left: auto;
+        }
+        .d-icon {
+          color: var(--fg-medium-contrast) !important;
         }
       }
     }

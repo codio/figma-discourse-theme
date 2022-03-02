@@ -1230,9 +1230,12 @@ tr {
       color: var(--coral) !important;
     }
     .d-icon {
-      color: var(--fg-low-contrast);
+      color: var(--fg-low-contrast) !important;
       font-size: 16px; // Icon
       margin-left: 4px;
+    }
+    .d-button-label {
+      color: var(--fg-low-contrast) !important;
     }
   }
 }

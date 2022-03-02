@@ -48,6 +48,7 @@ Select kit theming
       .select-kit-header {
         height: unset;
         white-space: nowrap;
+        background-color: white !important;
       }
       .select-kit-row {
         height: 32px;
@@ -294,7 +295,8 @@ as Discourse's primary form of navigation between filters */
       }
       .caret-icon {
         padding-left: 8px;
-        color: var(--fg-high-contrast);
+        color: var(--fg-high-contrast) !important;
+        background-color: white !important;
       }
     }
     .select-kit-body {

@@ -9,6 +9,7 @@ is shown.
 
 .d-header {
   border-bottom: 1px solid var(--surface-high-contrast);
+  background-color: #090f4f;
   box-shadow: none;
   height: 72px;
   // margin-bottom: 32px;
@@ -47,6 +48,9 @@ is shown.
     align-items: end;
     display: inline-grid;
     grid-auto-flow: column;
+    .d-icon {
+      color: white;
+    }
   }
   .header-buttons {
     grid-column: 2;
@@ -68,6 +72,11 @@ is shown.
     }
     .login-button:hover {
       transform: translateY(-2px);
+    }
+  }
+  .custom-header-links {
+    .headerLink a {
+      color: white !important;
     }
   }
 }

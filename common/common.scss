@@ -688,11 +688,12 @@ input[type]:focus,
       font-size: 0.875em;
       font-weight: 500;
       height: 36px;
+      border-radius: 6px;
     }
     button {
       height: 32px;
       padding: 5px;
-      width: 32px;
+      width: auto;
       &:hover {
         background: var(--fg-high-contrast);
       }

@@ -807,6 +807,10 @@ h3.search-footer {
   }
 }
 
+.discourse-tags a {
+  color: var(--fg-medium-contrast) !important;
+}
+
 /* !!! Topic list !!! */
 
 /* Category page */
@@ -1073,6 +1077,9 @@ tr {
         font-weight: 400;
       }
     }
+  }
+  .topic-list-header .topic-list-data {
+    padding: 12px 15px 12px 10px;
   }
 }
 

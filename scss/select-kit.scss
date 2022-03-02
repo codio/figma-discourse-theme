@@ -17,6 +17,10 @@ Select kit theming
         align-self: center;
         margin-left: auto;
       }
+      .discourse-tag,
+      .discourse-tag-count {
+        color: var(--fg-medium-contrast) !important;
+      }
     }
   }
   &.multi-select {

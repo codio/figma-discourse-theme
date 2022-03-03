@@ -20,9 +20,11 @@ one or two things have been individually configured for these.
 items trigger a dropdown */
 .drop-down-mode {
   .d-header-icons {
-    a.icon:hover {
-      .d-icon {
-        color: var(--surface-high-contrast);
+    .icon {
+      &:hover {
+        .d-icon {
+          color: var(--surface-high-contrast);
+        }
       }
     }
     .active {

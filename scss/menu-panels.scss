@@ -20,6 +20,11 @@ one or two things have been individually configured for these.
 items trigger a dropdown */
 .drop-down-mode {
   .d-header-icons {
+    .icon:hover {
+      .d-icon {
+        color: var(--surface-high-contrast);
+      }
+    }
     .active {
       .icon {
         background-color: transparent;
@@ -31,11 +36,6 @@ items trigger a dropdown */
           content: none;
           display: none;
         }
-      }
-    }
-    .icon:hover {
-      .d-icon {
-        color: var(--surface-high-contrast);
       }
     }
   }

@@ -766,6 +766,9 @@ input[type]:focus,
   padding-right: 3px;
   box-sizing: border-box;
   position: relative;
+  .d-time-input {
+    padding: 0 5px;
+  }
 }
 
 h3.search-footer {

@@ -12,6 +12,9 @@ Select kit theming
   .select-kit-header {
     color: var(--fg-medium-contrast);
   }
+  .d-icon {
+    color: var(--fg-medium-contrast);
+  }
   &.tag-chooser,
   &.mini-tag-chooser,
   &.tag-drop {
@@ -376,6 +379,7 @@ as Discourse's primary form of navigation between filters */
   }
   .multi-select-header {
     background: var(--bg);
+    color: var(--fg-medium-contrast);
     border: 1px solid var(--surface-high-contrast);
     border-radius: 6px;
   }

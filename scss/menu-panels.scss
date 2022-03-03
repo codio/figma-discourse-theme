@@ -32,7 +32,9 @@ items trigger a dropdown */
           display: none;
         }
         &:hover {
-          color: var(--surface-high-contrast);
+          .d-icon {
+            color: var(--surface-high-contrast);
+          }
         }
       }
     }

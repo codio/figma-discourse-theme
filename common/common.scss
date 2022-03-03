@@ -204,6 +204,7 @@ div.ac-wrap input[type="text"] {
 }
 
 input[type="number"] {
+  border: 1px solid var(--surface-high-contrast);
   border-radius: 6px;
 }
 
@@ -684,6 +685,9 @@ input[type]:focus,
 }
 
 .search-container {
+  .search-header {
+    border-radius: 6px;
+  }
   .search-bar {
     display: flex;
     justify-content: space-between;
@@ -695,6 +699,7 @@ input[type]:focus,
       border-radius: 6px;
     }
     button {
+      background: #090f4f;
       height: 32px;
       padding: 5px;
       width: auto;
@@ -746,6 +751,13 @@ input[type]:focus,
         font-size: 0.875em;
       }
     }
+  }
+}
+
+.d-date-input {
+  .date-picker {
+    border: 1px solid var(--surface-high-contrast);
+    border-radius: 6px;
   }
 }
 
@@ -2591,7 +2603,8 @@ Badges
 
 .open {
   .grippie {
-    background: var(--bold-bg);
+    background: #090f4f;
+    border-radius: 6px;
     padding: 4px 0;
     &:before {
       width: 32px;
@@ -2721,6 +2734,9 @@ Badges
     }
     .submit-panel {
       text-transform: capitalize;
+      .btn {
+        background: #090f4f;
+      }
     }
   }
 }

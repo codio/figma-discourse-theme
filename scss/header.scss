@@ -77,6 +77,9 @@ is shown.
   .custom-header-links {
     .headerLink a {
       color: white !important;
+      &:hover {
+        color: var(--surface-high-contrast)
+      }
     }
   }
 }

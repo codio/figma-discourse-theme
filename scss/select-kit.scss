@@ -240,6 +240,14 @@ Select kit theming
   .select-kit-collection {
     background-color: var(--modal-bg);
     display: table;
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background: var(--fg-low-contrast);
+    }
   }
   .select-kit-header {
     .selected-name {

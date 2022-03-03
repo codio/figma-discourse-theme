@@ -31,11 +31,11 @@ items trigger a dropdown */
           content: none;
           display: none;
         }
-        &:hover {
-          .d-icon {
-            color: var(--surface-high-contrast);
-          }
-        }
+      }
+    }
+    .icon:hover {
+      .d-icon {
+        color: var(--surface-high-contrast);
       }
     }
   }

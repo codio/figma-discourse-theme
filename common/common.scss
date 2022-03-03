@@ -686,7 +686,7 @@ input[type]:focus,
 
 .search-container {
   .search-header {
-    border-radius: 6px;
+    border-radius: 8px;
   }
   .search-bar {
     display: flex;
@@ -703,9 +703,6 @@ input[type]:focus,
       height: 32px;
       padding: 5px;
       width: auto;
-      &:hover {
-        background: var(--fg-high-contrast);
-      }
       .d-icon {
         color: white;
         font-size: 16px; // Icon

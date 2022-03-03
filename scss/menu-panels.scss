@@ -232,6 +232,20 @@ items trigger a dropdown */
     top: 8px !important;
     right: 8px !important;
   }
+  .widget-button {
+    position: absolute;
+    z-index: 2;
+    order: 2;
+    right: -35px;
+    background: transparent;
+    top: 3px;
+    .d-icon {
+      color: var(--fg-low-contrast);
+    }
+  }
+  .d-icon {
+    color: var(--fg-low-contrast);
+  }
 }
 
 /* User menu */

@@ -81,7 +81,7 @@ Buttons
 }
 
 .btn-primary {
-  @include text-button-small(var(--bold-bg), var(--bold-fg));
+  @include text-button-small(var(--dark-blue-bg), var(--bold-fg));
   &.btn-hover,
   &:hover {
     background-color: var(--bold-bg) !important;

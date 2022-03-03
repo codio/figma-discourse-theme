@@ -25,11 +25,14 @@ items trigger a dropdown */
         background-color: transparent;
         cursor: pointer;
         .d-icon {
-          color: var(--fg-high-contrast);
+          color: var(--bg);
         }
         &:after {
           content: none;
           display: none;
+        }
+        &:hover {
+          color: var(--surface-high-contrast);
         }
       }
     }

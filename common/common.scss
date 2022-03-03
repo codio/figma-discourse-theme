@@ -758,6 +758,16 @@ input[type]:focus,
   }
 }
 
+.d-date-time-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--surface-high-contrast);
+  border-radius: 6px;
+  padding-right: 3px;
+  box-sizing: border-box;
+  position: relative;
+}
+
 h3.search-footer {
   font-size: 1em;
   font-weight: 600;

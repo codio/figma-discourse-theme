@@ -9,6 +9,9 @@ Select kit theming
     padding: 10px;
     width: 260px;
   }
+  .select-kit-header {
+    color: var(--fg-medium-contrast);
+  }
   &.tag-chooser,
   &.mini-tag-chooser,
   &.tag-drop {

@@ -21,7 +21,7 @@ items trigger a dropdown */
 .drop-down-mode {
   .d-header-icons {
     .icon {
-      &:hover {
+      .discourse-no-touch &:hover {
         .d-icon {
           color: var(--surface-high-contrast);
         }

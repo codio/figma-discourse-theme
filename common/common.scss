@@ -699,7 +699,7 @@ input[type]:focus,
       border-radius: 6px;
     }
     button {
-      background: #090f4f;
+      background-color: #090f4f !important;
       height: 32px;
       padding: 5px;
       width: auto;
@@ -2610,7 +2610,7 @@ Badges
 
 .open {
   .grippie {
-    background: #090f4f;
+    background-color: #090f4f;
     border-radius: 6px;
     padding: 4px 0;
     &:before {
@@ -2739,7 +2739,7 @@ Badges
         font-size: 14px; // Icon
       }
       .btn {
-        background: #090f4f;
+        background-color: #090f4f !important;
       }
     }
     .submit-panel {

@@ -48,9 +48,6 @@ is shown.
     align-items: end;
     display: inline-grid;
     grid-auto-flow: column;
-    .d-icon {
-      color: white;
-    }
   }
   .header-buttons {
     grid-column: 2;

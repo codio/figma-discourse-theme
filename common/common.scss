@@ -184,7 +184,7 @@ textarea,
 div.ac-wrap input[type="text"] {
   background-color: var(--bg);
   border: 1px solid var(--surface-high-contrast);
-  border-radius: 2px;
+  border-radius: 6px;
   box-shadow: none;
   color: var(--fg-high-contrast);
   font-size: 1em;
@@ -201,6 +201,10 @@ div.ac-wrap input[type="text"] {
     box-shadow: none;
     outline: 0;
   }
+}
+
+input[type="number"] {
+  border-radius: 6px;
 }
 
 div.ac-wrap {
@@ -688,11 +692,12 @@ input[type]:focus,
       font-size: 0.875em;
       font-weight: 500;
       height: 36px;
+      border-radius: 6px;
     }
     button {
       height: 32px;
       padding: 5px;
-      width: 32px;
+      width: auto;
       &:hover {
         background: var(--fg-high-contrast);
       }
@@ -805,6 +810,10 @@ h3.search-footer {
     border-radius: 2px;
     padding: 2px 8px;
   }
+}
+
+.discourse-tags a {
+  color: var(--fg-medium-contrast) !important;
 }
 
 /* !!! Topic list !!! */
@@ -1073,6 +1082,9 @@ tr {
         font-weight: 400;
       }
     }
+  }
+  .topic-list-header .topic-list-data {
+    padding: 12px 15px 12px 10px;
   }
 }
 
@@ -2637,6 +2649,10 @@ Badges
   }
   #reply-title {
     height: 40px;
+    border-radius: 6px;
+    .select-kit-header {
+      color: var(--fg-medium-contrast) !important;
+    }
   }
   .reply-to {
     align-items: center;

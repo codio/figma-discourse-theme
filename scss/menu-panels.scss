@@ -201,6 +201,15 @@ items trigger a dropdown */
     margin-bottom: 16px;
     padding: 0 0;
     order: 2;
+    border: none;
+    outline: none;
+    &:focus-within {
+      outline: none;
+    }
+  }
+  .search-input input {
+    border: 1px solid var(--fg-low-contrast) !important;
+    border-radius: 6px;
   }
   .results {
     margin-top: 0;

@@ -9,6 +9,9 @@ Select kit theming
     padding: 10px;
     width: 260px;
   }
+  .select-kit-header {
+    color: var(--fg-medium-contrast);
+  }
   &.tag-chooser,
   &.mini-tag-chooser,
   &.tag-drop {
@@ -240,6 +243,14 @@ Select kit theming
   .select-kit-collection {
     background-color: var(--modal-bg);
     display: table;
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background: var(--fg-low-contrast);
+    }
   }
   .select-kit-header {
     .selected-name {

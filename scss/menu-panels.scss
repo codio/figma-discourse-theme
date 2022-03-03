@@ -169,7 +169,10 @@ items trigger a dropdown */
           margin-left: -30px;
           margin-right: 8px;
         }
-        &:hover,
+        &:hover {
+          background-color: transparent !important;
+          color: var(--bg);
+        }
         &:focus {
           background-color: transparent !important;
         }
@@ -231,6 +234,20 @@ items trigger a dropdown */
   .searching {
     top: 8px !important;
     right: 8px !important;
+  }
+  .widget-button {
+    position: absolute;
+    z-index: 2;
+    order: 2;
+    right: -35px;
+    background: transparent;
+    top: 3px;
+    .d-icon {
+      color: var(--fg-low-contrast);
+    }
+  }
+  .d-icon {
+    color: var(--fg-low-contrast);
   }
 }
 

@@ -244,7 +244,7 @@ items trigger a dropdown */
       color: var(--fg-low-contrast);
     }
     .search-menu-assistant-item:hover {
-      &:hover {
+      .widget-link:hover {
         background-color: var(--surface-low-contrast);
       }
     }

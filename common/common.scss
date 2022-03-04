@@ -2727,6 +2727,13 @@ Badges
     .d-icon {
       color: var(--fg-high-contrast);
     }
+    .d-editor-container {
+      .popup-tip.bad {
+        border-radius: 6px;
+        top: 2px;
+        left: 2px;
+      }
+    }
   }
   .reply-area {
     .d-editor-textarea-wrapper {

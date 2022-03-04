@@ -387,7 +387,7 @@ as Discourse's primary form of navigation between filters */
   }
   .multi-select-header {
     background: var(--bg);
-    color: var(--fg-medium-contrast);
+    color: var(--fg-medium-contrast) !important;
     border: 1px solid var(--surface-high-contrast);
     border-radius: 6px;
   }

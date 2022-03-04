@@ -20,7 +20,7 @@ Select kit theming
     }
   }
   .d-icon {
-    color: var(--fg-medium-contrast);
+    color: var(--fg-medium-contrast) !important;
   }
   &.tag-chooser,
   &.mini-tag-chooser,

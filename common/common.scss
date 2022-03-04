@@ -2770,13 +2770,12 @@ Badges
         top: 2px;
         left: 2px;
       }
-      .d-editor-button-bar {
-        .btn {
-          color: var(--fg-medium-contrast);
-        }
-      }
     }
   }
+}
+
+.d-editor-button-bar .btn {
+  color: var(--fg-medium-contrast);
 }
 
 /* Selected posts modal */

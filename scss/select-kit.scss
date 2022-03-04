@@ -11,6 +11,13 @@ Select kit theming
   }
   .select-kit-header {
     color: var(--fg-medium-contrast);
+    .select-kit-header-wrapper {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 20px;
+    }
   }
   .d-icon {
     color: var(--fg-medium-contrast);

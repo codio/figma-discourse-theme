@@ -2752,6 +2752,16 @@ Badges
         }
       }
     }
+    .d-editor-container {
+      .popup-tip.bad {
+        background: var(--danger-medium);
+        color: white;
+        box-shadow: 0 2px 3px 0 rgb(0 0 0 / 20%);
+        border-radius: 6px;
+        top: 2px;
+        left: 2px;
+      }
+    }
     .save-or-cancel {
       .cancel {
         color: var(--fg-medium-contrast);

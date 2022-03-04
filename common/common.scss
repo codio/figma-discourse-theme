@@ -2269,6 +2269,9 @@ aside.onebox {
     .category-name {
       color: var(--fg-medium-contrast) !important;
     }
+    a.badge-wrapper {
+      align-items: baseline;
+    }
   }
 }
 

@@ -2750,9 +2750,6 @@ Badges
             border-radius: 4px;
           }
         }
-        .btn {
-          color: var(--fg-medium-contrast);
-        }
       }
     }
     .save-or-cancel {
@@ -2772,6 +2769,11 @@ Badges
         border-radius: 6px;
         top: 2px;
         left: 2px;
+      }
+      .d-editor-button-bar {
+        .btn {
+          color: var(--fg-medium-contrast);
+        }
       }
     }
   }

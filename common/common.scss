@@ -2743,12 +2743,15 @@ Badges
         display: flex;
         button {
           align-items: center;
-          color: var(--fg-medium-contrast) !important;
+          color: var(--fg-medium-contrast);
           height: 32px;
           padding: 8px;
           &:hover {
             border-radius: 4px;
           }
+        }
+        .btn {
+          color: var(--fg-medium-contrast);
         }
       }
     }

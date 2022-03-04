@@ -1135,6 +1135,15 @@ tr {
       font-size: 1.125em;
       color: var(--bg);
     }
+    .category-name {
+      color: var(--bg) !important;
+    }
+    .discourse-tags {
+      .discourse-tag {
+        padding: 0 8px;
+        color: var(--bg) !important;
+      }
+    }
   }
 }
 

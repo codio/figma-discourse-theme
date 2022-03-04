@@ -2743,7 +2743,7 @@ Badges
         display: flex;
         button {
           align-items: center;
-          color: var(--fg-medium-contrast);
+          color: var(--fg-medium-contrast) !important;
           height: 32px;
           padding: 8px;
           &:hover {

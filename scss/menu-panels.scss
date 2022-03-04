@@ -237,17 +237,15 @@ items trigger a dropdown */
     .search-result-topic {
       width: 100%;
     }
-    .search-menu-assistant {
-      .search-menu-assistant-item:hover {
-        a {
-          color: var(--fg-low-contrast);
-        }
-        .d-icon {
-          color: var(--fg-low-contrast);
-        }
-        &:hover {
-          background-color: var(--surface-low-contrast);
-        }
+    a {
+      color: var(--fg-low-contrast);
+    }
+    .d-icon {
+      color: var(--fg-low-contrast);
+    }
+    .search-menu-assistant-item:hover {
+      &:hover {
+        background-color: var(--surface-low-contrast);
       }
     }
   }

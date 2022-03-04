@@ -190,11 +190,11 @@ items trigger a dropdown */
     padding: 8px 8px;
     height: revert;
     width: 100%;
-    .search-random-quick-tip {
-      padding: 0.25em 1px;
-      font-size: var(--font-down-2);
-      color: var(--fg-low-contrast);
-    }
+  }
+  .search-random-quick-tip {
+    padding: 0.25em 1px;
+    font-size: var(--font-down-2);
+    color: var(--fg-low-contrast);
   }
   .menu-panel {
     /* This specialized padding is "fixed" by .results on the
@@ -229,12 +229,26 @@ items trigger a dropdown */
     border-radius: 6px;
   }
   .results {
+    width: auto;
     margin-top: 0;
     order: 3;
     padding-bottom: 10px;
     border-radius: 8px;
     .search-result-topic {
       width: 100%;
+    }
+    .search-menu-assistant {
+      .search-menu-assistant-item:hover {
+        a {
+          color: var(--fg-low-contrast);
+        }
+        .d-icon {
+          color: var(--fg-low-contrast);
+        }
+        &:hover {
+          background-color: var(--surface-low-contrast);
+        }
+      }
     }
   }
   /* Positions the spinner correctly in the middle */
@@ -249,23 +263,12 @@ items trigger a dropdown */
     right: -35px;
     background: transparent;
     top: 3px;
-    .d-icon {
-      color: var(--fg-low-contrast);
-    }
   }
   .d-icon {
-    color: var(--fg-low-contrast);
+    color: var(--fg-low-contrast) !important;
   }
   .search-menu-recent {
-    .search-menu .search-menu-recent .heading h4 {
-      color: var(--fg-low-contrast);
-    }
-  }
-  .widget-link {
-    a {
-      color: var(--fg-low-contrast);
-    }
-    .search-link .d-icon {
+    .heading h4 {
       color: var(--fg-low-contrast);
     }
   }

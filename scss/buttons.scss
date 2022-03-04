@@ -81,16 +81,16 @@ Buttons
 }
 
 .btn-primary {
-  @include text-button-small(var(--bold-bg), var(--bold-fg));
+  @include text-button-small(var(--dark-blue-bg), var(--bold-fg));
   &.btn-hover,
   &:hover {
-    background-color: var(--bold-bg) !important;
-    border-color: var(--bold-bg) !important;
+    background-color: var(--dark-blue-bg) !important;
+    border-color: var(--dark-blue-bg) !important;
     color: var(--bold-fg) !important;
   }
   &.btn-active,
   &:active {
-    border-color: var(--bold-bg);
+    border-color: var(--dark-blue-bg);
   }
   &.btn[disabled] {
     background-color: var(--surface-high-contrast);

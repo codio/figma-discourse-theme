@@ -54,6 +54,7 @@ Select kit theming
     &.multi-select {
       .select-kit-body {
         padding: 8px 0;
+        position: absolute !important;
         .d-icon {
           color: var(--fg-medium-contrast) !important;
         }

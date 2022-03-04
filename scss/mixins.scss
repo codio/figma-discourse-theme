@@ -3,7 +3,7 @@ Figma Community Forum
 CSS Mixins 
 */
 
-@mixin text-button-large($bg: var(--bold-bg), $txt: var(--bold-fg)) {
+@mixin text-button-large($bg: var(--dark-blue-bg), $txt: var(--bold-fg)) {
   background-color: $bg;
   border: 0;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ CSS Mixins
   }
 }
 
-@mixin text-button-small($bg: var(--bold-bg), $txt: var(--bold-fg)) {
+@mixin text-button-small($bg: var(--dark-blue-bg), $txt: var(--bold-fg)) {
   align-items: center;
   background-color: $bg;
   border-width: 2px;

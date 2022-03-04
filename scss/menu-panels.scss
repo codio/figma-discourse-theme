@@ -225,6 +225,7 @@ items trigger a dropdown */
   }
   .search-input input {
     border: 1px solid var(--fg-low-contrast) !important;
+    width: 400px !important;
     border-radius: 6px;
   }
   .results {

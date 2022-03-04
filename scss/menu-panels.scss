@@ -239,14 +239,12 @@ items trigger a dropdown */
     }
     a {
       color: var(--fg-low-contrast);
+      &:hover {
+        background-color: var(--surface-low-contrast);
+      }
     }
     .d-icon {
       color: var(--fg-low-contrast);
-    }
-    .search-menu-assistant-item:hover {
-      .widget-link:hover {
-        background-color: var(--surface-low-contrast);
-      }
     }
   }
   /* Positions the spinner correctly in the middle */

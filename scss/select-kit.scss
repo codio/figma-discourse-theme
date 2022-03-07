@@ -153,8 +153,9 @@ Select kit theming
         background-color: transparent;
         display: inline-flex;
         margin-left: -12px;
-        margin-bottom: 32px;
+        margin-bottom: 30px;
         padding: 8px 12px !important;
+        font-size: 11px;
         height: unset;
         &:focus {
           outline: 0;
@@ -199,6 +200,14 @@ Select kit theming
         .top-date-string {
           color: var(--fg);
           text-transform: none;
+        }
+        .period-title {
+          font-size: 16px;
+        }
+        &:hover {
+          .date-section {
+            color: var(--bg);
+          }
         }
       }
     }

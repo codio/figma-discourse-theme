@@ -547,6 +547,16 @@ input[type]:focus,
   }
 }
 
+@media (max-width: 450px) {
+  .navigation-container {
+    #navigation-bar {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 0.75em;
+    }
+  }
+}
+
 .list-controls {
   margin-bottom: 0;
   ol {
@@ -594,6 +604,18 @@ input[type]:focus,
         background-color: transparent;
       }
     }
+  }
+}
+
+@media (max-width: 450px) {
+  .nav-pills {
+    .navigation-toggle {
+      flex: 0 1 auto;
+      border-radius: 8px;
+    }
+  }
+  .nav-pills li > a {
+    padding: 6px 12px;
   }
 }
 

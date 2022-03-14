@@ -205,8 +205,9 @@ Category boxes & other related ephemera
             flex: 1 1 auto;
           }
           .category-logo {
-            display: block;
+            display: flex;
             border-radius: 8px;
+            flex: 0 0 auto;
             img {
               height: 100%;
               width: 100%;

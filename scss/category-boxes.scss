@@ -186,6 +186,40 @@ Category boxes & other related ephemera
   }
 }
 
+@media (max-width: 450px) {
+  .category-boxes {
+    .category-box {
+      max-height: unset;
+      .category-box-inner {
+        border: 0;
+        display: flex;
+        padding: 1em;
+        .category-logo {
+          display: none;
+        }
+        .category-details h3 {
+          display: flex;
+        }
+        .category-details {
+          .category-text-title {
+            flex: 1 1 auto;
+          }
+          .category-logo {
+            display: flex;
+            border-radius: 8px;
+            flex: 0 0 auto;
+            img {
+              height: 100%;
+              width: 100%;
+              border-radius: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // Subcategory theming
 #header-list-area {
   .category-boxes {

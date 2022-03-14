@@ -197,8 +197,22 @@ Category boxes & other related ephemera
         .category-logo {
           display: none;
         }
-        .category-details .category-logo {
-          display: block;
+        .category-details h3 {
+          display: flex;
+        }
+        .category-details {
+          .category-text-title {
+            flex: 1 1 auto;
+          }
+          .category-logo {
+            display: block;
+            border-radius: 8px;
+            img {
+              height: 100%;
+              width: 100%;
+              border-radius: 8px;
+            }
+          }
         }
       }
     }

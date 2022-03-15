@@ -611,14 +611,10 @@ input[type]:focus,
   .nav-pills {
     .navigation-toggle {
       flex: 0 1 auto;
+      border: 1px solid var(--fg-low-contrast);
       border-radius: 8px;
       padding: 0;
     }
-  }
-  .nav-pills li {
-    margin-right: 0;
-    font-size: var(--font-down-1);
-    border: 1px solid var(--fg-low-contrast);
   }
   .nav-pills li > a {
     padding: 6px 12px;

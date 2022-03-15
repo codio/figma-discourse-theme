@@ -204,6 +204,11 @@ Category boxes & other related ephemera
           .category-text-title {
             flex: 1 1 auto;
           }
+          .category-description {
+            margin-top: 0.5em;
+            overflow: hidden;
+            color: var(--fg-low-contrast);
+          }
           .category-logo {
             display: flex;
             border-radius: 8px;

@@ -615,6 +615,11 @@ input[type]:focus,
       padding: 0;
     }
   }
+  .nav-pills li {
+    margin-right: 0;
+    font-size: var(--font-down-1);
+    border: 1px solid var(--fg-low-contrast);
+  }
   .nav-pills li > a {
     padding: 6px 12px;
   }

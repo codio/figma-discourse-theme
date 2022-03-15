@@ -84,6 +84,12 @@ is shown.
   }
 }
 
+@media (max-width: 600px) {
+  .custom-header-links {
+    display: none !important;
+  }
+}
+
 .category-header {
   #main-outlet {
     padding-top: unset !important;

@@ -271,8 +271,10 @@ items trigger a dropdown */
 }
 
 @media (max-width: 450px) {
-  .search-input input {
-    width: auto !important;
+  .search-menu {
+    .search-input input {
+      width: auto !important;
+    }
   }
 }
 

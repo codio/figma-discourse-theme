@@ -201,6 +201,7 @@ Category boxes & other related ephemera
           display: flex;
         }
         .category-details {
+          align-self: unset;
           .category-text-title {
             flex: 1 1 auto;
           }

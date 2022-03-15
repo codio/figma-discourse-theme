@@ -270,6 +270,12 @@ items trigger a dropdown */
   }
 }
 
+@media (max-width: 450px) {
+  .search-input input {
+    width: auto !important;
+  }
+}
+
 /* User menu */
 .user-menu {
   .menu-links-header {

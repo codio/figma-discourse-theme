@@ -547,12 +547,12 @@ input[type]:focus,
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .navigation-container {
     #navigation-bar {
       display: flex;
       flex-wrap: wrap;
-      margin-bottom: 0.75em;
+      margin-bottom: 1em;
     }
   }
 }
